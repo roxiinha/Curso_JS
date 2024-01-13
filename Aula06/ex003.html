@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro trabalho </title>
+    <style>
+      body {
+        background-color: rgb(104, 104, 169);
+        color: white;/*Comentário em CSS*/
+        font: normal 20pt Arial;
+      } 
+      h1 {
+        color:rgb(221, 221, 30);
+      }
+    </style>
+</head>
+<body>
+    <h1>Olá,Mundo!</h1> <!--Isso é um comentário-->
+    <p>Já me livrei da maldição?</p>
+    <script>
+       var n1 = Number(window.prompt('Digite um número: '))//string
+       var n2 = Number(window.prompt('Digite outro número: '))//string
+       var s = n1 + n2
+       if(typeof(n1) == "number" || typeof(n2) == "number") {
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)//Concatenação
+       } else {
+         console.log("error 1")
+         window.alert("Um dos valores não é do tipo Number")
+       }
+      
+      
+       // (number + number) para adição
+       // (string + string) para concatenação 
+    </script>
+</body>
+</html>
